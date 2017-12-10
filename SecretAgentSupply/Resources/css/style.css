@@ -1,0 +1,146 @@
+html{
+  font-family: sans-serif, helvetica;
+  font-size: 16px;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  padding-left: 7rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.header .logo{
+  padding-right: 2rem;
+}
+
+.mainbanner{
+  display: flex;
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 25rem;
+}
+
+.updates{
+  background-color: black;
+  color: white;
+  max-height: 10rem;
+  max-width: auto;
+  margin-left: 9rem;
+  margin-top: 4rem;
+  padding: 2.5rem 1rem;
+}
+
+.arrival{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.bikes{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 2.5rem;
+}
+
+h1{
+  font-weight: bold;
+}
+
+.navigationbar{
+  background-color: firebrick;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 2rem;
+  padding-left: 6rem;
+  padding-right:6rem;
+}
+
+.products{
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem .25rem;
+}
+
+.product-glasses img{
+  background-size: cover;
+}
+
+.product-image{
+  height: 9rem;
+  width: 18rem;
+  display: flex;
+  justify-content: center;
+  border-width: .25rem;
+  border-style: solid;
+  border-color: black;
+  padding: 2rem 0px;
+}
+
+
+.product-image img{
+  max-width: 8rem;
+}
+
+img{
+  border-style: none;
+}
+
+.description{
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.logistics{
+  display: inline-flex;
+  margin-top: 1.5rem;
+  margin-left: 15rem;
+  margin-bottom: 2.5rem;
+}
+
+.location h5{
+  background-color: black;
+  color: white;
+  padding-right: 10rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-right: 5rem;
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.hours h5{
+  background-color: black;
+  color: white;
+  padding-right: 10rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-right: 5rem;
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 12rem;
+}
+
+.hours span{
+  margin-left: 12rem;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+}
